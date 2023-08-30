@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  padding-top: 150px;
+}
+
+.car-img {
+  position: relative;
+}
+
+.plugin-container.group-0 {
+  position: absolute;
+  width: 60%;
+  top: -3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.plugin-container.group-1 {
+  position: absolute;
+  width: 15%;
+  left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.plugin-container.group-2 {
+  position: absolute;
+  width: 10%;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.plugin-container.group-3 {
+  position: absolute;
+  width: 10%;
+  right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.plugin-container.group-4 {
+  position: absolute;
+  width: 60%;
+  bottom: 38%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.submit-button {
+  position: absolute;
+  bottom: 85px;
+  left: 400px;
+  width: 350px;
+  height: 70px;
+  background-color: rgb(0, 0, 90);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.submit-button:active {
+  background-color: rgb(12, 12, 128);
+}
+
+.reset-button {
+  position: absolute;
+  right: 350px;
+  bottom: 85px;
+  width: 350px;
+  height: 70px;
+  background-color: rgb(0, 0, 90);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.reset-button:active {
+  background-color: rgb(12, 12, 128);
+}
